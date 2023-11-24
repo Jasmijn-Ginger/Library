@@ -22,6 +22,6 @@ public class Book extends ItemStatus{
     }
 
     protected String getOverviewItemText(){
-        return isbn + title + author + yearOfPublication + status;
+        return isbn + title + author + yearOfPublication + getStatus();
     }
 }

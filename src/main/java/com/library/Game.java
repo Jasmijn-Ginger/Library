@@ -22,6 +22,6 @@ public abstract class Game extends ItemStatus {
 
 
     public String getOverviewItemText(String studioDesigner){
-        return ean + title + studioDesigner + yearOfPublication + status;
+        return ean + title + studioDesigner + yearOfPublication + getStatus();
     }
 }

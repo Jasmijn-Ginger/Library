@@ -16,6 +16,6 @@ public abstract class Magazine extends ItemStatus{
     }
 
     public String getOverviewItemText(int number){
-        return isnn + title + number + status;
+        return isnn + title + number + getStatus();
     }
 }

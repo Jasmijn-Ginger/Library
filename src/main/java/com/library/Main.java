@@ -5,11 +5,11 @@ public class Main {
        BoardGame catan = new BoardGame("Catan", "GameManufacturer", "2000", "Strategy", "2" +
                "5514", 2, 14, "Niceperson");
 
-        System.out.println(catan.status);
+        System.out.println(catan.getStatus());
         catan.leenItem();
-        System.out.println(catan.status);
+        System.out.println(catan.getStatus());
         catan.retourneerItem();
-        System.out.println(catan.status);
+        System.out.println(catan.getStatus());
 
         System.out.println(catan.getOverviewItemText());
 

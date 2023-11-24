@@ -1,7 +1,7 @@
 package com.library;
 
 public class ItemStatus {
-    public String status = "Beschikbaar";
+    private String status = "Beschikbaar";
 
     public void leenItem(){
         status = "Uitgeleend";
@@ -9,5 +9,9 @@ public class ItemStatus {
 
     public void retourneerItem(){
         status = "Beschikbaar";
+    }
+
+    public String getStatus(){
+        return status;
     }
 }
