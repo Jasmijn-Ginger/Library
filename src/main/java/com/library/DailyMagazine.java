@@ -12,4 +12,8 @@ public class DailyMagazine extends Magazine {
         this.genre = genre;
         this.number = number;
     }
+
+    public String getOverviewItemText(){
+        return getOverviewItemText(number);
+    }
 }

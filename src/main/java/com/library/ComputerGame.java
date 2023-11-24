@@ -6,4 +6,8 @@ public class ComputerGame extends Game {
         super(title, publisher, yearOfPublication, ageRating, genre, ean, amountOfPlayers);
         this.studio = studio;
     }
+
+    public String getOverviewItemText(){
+        return getOverviewItemText(studio);
+    }
 }

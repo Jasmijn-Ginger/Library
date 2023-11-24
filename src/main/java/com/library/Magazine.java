@@ -14,4 +14,8 @@ public abstract class Magazine extends ItemStatus{
         this.copyEditor = copyEditor;
         this.isnn = isnn;
     }
+
+    public String getOverviewItemText(int number){
+        return isnn + title + number + status;
+    }
 }

@@ -7,4 +7,8 @@ public class BoardGame extends Game {
         super(title, publisher, yearOfPublication, ageRating, genre, ean, amountOfPlayers);
         this.designer = designer;
     }
+
+    public String getOverviewItemText(){
+        return getOverviewItemText(designer);
+    }
 }

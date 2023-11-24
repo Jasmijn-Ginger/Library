@@ -20,4 +20,8 @@ public class Book extends ItemStatus{
         this.copyEditor = copyEditor;
         this.author = author;
     }
+
+    protected String getOverviewItemText(){
+        return isbn + title + author + yearOfPublication + status;
+    }
 }

@@ -12,4 +12,8 @@ public class MonthlyMagazine extends Magazine {
         this.monthNumber = monthNumber;
         this.appearance = appearance;
     }
+
+    public String getOverviewItemText(){
+        return getOverviewItemText(monthNumber);
+    }
 }

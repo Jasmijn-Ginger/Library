@@ -19,4 +19,9 @@ public abstract class Game extends ItemStatus {
         this.ean = ean;
         this.amountOfPlayers = amountOfPlayers;
     }
+
+
+    public String getOverviewItemText(String studioDesigner){
+        return ean + title + studioDesigner + yearOfPublication + status;
+    }
 }

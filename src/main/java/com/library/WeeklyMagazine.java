@@ -11,4 +11,8 @@ public class WeeklyMagazine extends Magazine {
         this.genre = genre;
         this.weekNumber = weekNumber;
     }
+
+    public String getOverviewItemText(){
+        return getOverviewItemText(weekNumber);
+    }
 }
